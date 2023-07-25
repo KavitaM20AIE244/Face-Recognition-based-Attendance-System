@@ -2,7 +2,7 @@ import configparser
 import json
 
 config = configparser.RawConfigParser()
-config.read('./ComputerVisionProject_FaceDetection/config/config.cfg')
+config.read('/content/Face-Recognition-based-Attendance-System/hog_svm_face_detection/config/config.cfg')
 
 # HOG Feature directory paths
 pos_feat_dir = config.get("paths", "pos_feat_dir")
